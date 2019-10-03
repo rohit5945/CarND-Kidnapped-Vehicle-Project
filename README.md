@@ -27,7 +27,7 @@ This will then run in conjunction with the Term 2 simulator.
 
 ## Results
 ### Performance
-The particle filter met the requirements, which were 1 meter in error for x and y translations, 0.05 rad in error for yaw, and 100 seconds of runtime for the particle filter. Please note that due to the random numbers generated in certain portions of my approach (for the Gaussian distributions), results may vary slightly. Error below is cumulative mean weighted error.
+The particle filter met the requirements, which were .296 and .333 meter in error for x and y translations, 0.017 rad in error for yaw, and 3 seconds of runtime for the particle filter. Please note that due to the random numbers generated in certain portions of my approach (for the Gaussian distributions), results may vary slightly. Error below is cumulative mean weighted error.
 
 **Using: 100 particles**
 
@@ -36,7 +36,7 @@ Runtime: 17.219 seconds (based on old project version)
 | Estim |  Error  |
 | ----- | ------- |
 |   x   | 0.296 | (m)
-|   y   | 0..333 | (m)
+|   y   | 0.333 | (m)
 |  yaw  | 0..017 | (rad)
 
 ### Visualizing the Car's Localization based on Landmark Observations
